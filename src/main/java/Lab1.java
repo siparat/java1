@@ -1,8 +1,11 @@
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
+
 
 public class Lab1 {
 
     public static void main(String[] args) {
+        System.setOut(new java.io.PrintStream(System.out, true,StandardCharsets.UTF_8));
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Введите первое число: ");
